@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tagss for new branch -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./landing.css">
+  <link rel="stylesheet" href="./responsive.css">
+  <link rel="stylesheet" href="package/css/swiper.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Netflix-Clone</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div style="position: relative;">
+
+    <!-- header -->
+
+    <nav class="navbar navbar-expand-lg netflix-navbar netflix-padding-left netflix-padding-right">
+      <div class="container-fluid">
+        <div class="netflix-row">
+          <div class="left d-flex align-items-center">
+            <a class="navbar-brand" href="#">
+              <img src="./images/logo.png" alt="">
+            </a>
+            <div class="netflix-nav">
+              <section>
+                <button>Home</button>
+                <button>TV Shows</button>
+                <button>Movies</button>
+                <button>News & Popular</button>
+                <button>My List</button>
+              </section>
+            </div>
+            <div class="netflix-dropdown-box dropdown">
+              <button class="netflix-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Browse
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Home</a></li>
+                <li><a class="dropdown-item" href="#">TV Shows</a></li>
+                <li><a class="dropdown-item" href="#">Movies</a></li>
+                <li><a class="dropdown-item" href="#">News & Popular</a></li>
+                <li><a class="dropdown-item" href="#">My List</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="right d-flex align-items-center">
+            <i class="bi bi-search"></i>
+            <i class="bi bi-bell-fill"></i>
+            <section class="netflix-profile">
+              <img src="./img/man.png">
+            </section>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- /header -->
+
+
+    <!-- video -->
+
+    <div class="">
+      <section class="netflix-home-video">
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <video src="./video/broly.mp4" autoplay muted loop></video>
+        <div class="content">
+          <section class="left">
+            <img src="./images/brolylogo.png" alt="">
+
+            <div class="d-flex mt-2">
+              <button class="btn btn-light m-2"> <i class="bi bi-play-fill" style="color: black; padding: 0%;"></i> Play
+                Now </button>
+              <button class="btn btn-secondary m-2"><i class="bi bi-info-circle" style=" padding: 0%;"></i> More
+                Info</button>
+            </div>
+          </section>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- video end -->
+
+    <!-- slider start -->
+
+    <!-- slider 1 start-->
+
+    <div class="netflix-slider">
+      <h2>Popular on Netflix</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/dbs.png" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/steins.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/mono.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/mha.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/jjk.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/aot.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/op.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/naruto.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/made.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/dxd.jpg" alt="Movie Title"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!-- slider 1 end -->
+
+    <!-- slider 2 start-->
+
+    <div class="netflix-slider">
+      <h2>Top Asian picks</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/11.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/12.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/13.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/14.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/15.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/16.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/17.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/31.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/29.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/30.jpg" alt="Movie Title"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!-- slider 2 end -->
+
+    <!-- slider 3 start-->
+
+    <div class="netflix-slider">
+      <h2>Popular Animated movies</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/21.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/18.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/23.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/19.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/20.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/d1.jpeg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/d2.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/d3.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/d4.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/d5.jpg" alt="Movie Title"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!-- slider 3 end -->
+
+    <!-- slider 4 start-->
+
+    <div class="netflix-slider">
+      <h2>Popular Hollywood movies</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/m1.webp" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/m2.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/m3.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/m4.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/m5.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/m7.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/m6.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/m8.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/m9.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/m10.jpg" alt="Movie Title"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!-- slider 4 end -->
+
+    <!-- slider 5 start-->
+
+    <div class="netflix-slider">
+      <h2>Popular Bollywood movies</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/h1.jpeg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/h2.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/h3.webp" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/h4.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/h5.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/h7.jpeg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/h6.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/h8.png" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/h9.jpg" alt="Movie Title"></div>
+          <div class="swiper-slide"><img src="img/h10.jpg" alt="Movie Title"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!-- slider 4 end -->
+
+
+    <!-- sliders end -->
+
+    <!-- footer -->
+
+    <div class="container footer">
+      <div class="row">
+        <div class="col-md-10 mx-auto">
+          <div class="row">
+            <a class="navbar-brand" id="footer-icon" href="#">
+              <img src="./images/logo.png" alt="">
+            </a>
+            <div class="col-md-3">
+              <ul>
+                <li>Audio Description</li>
+                <li>Investor Relation</li>
+                <li>Legal Notice</li>
+                <li class="sc-box">Service Code</li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>Help Center</li>
+                <li>Jobs</li>
+                <li>Cookie Preferences</li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>Gift cards</li>
+                <li>Terms of use</li>
+                <li>Corporate Information</li>
+
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>Media Center</li>
+                <li>Privacy</li>
+                <li>Contact Us</li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10 mx-auto">
+          <div class="row">
+
+            <div class="col">
+              <p class="copy-right">© 1997-2024 Netflix, Inc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- footer end -->
+
+  <!-- scripts -->
+
+  <script src="package/js/swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script src="./slider.js"></script>
+
+  <!-- scripts end -->
+  
+</body>
+
+</html>
