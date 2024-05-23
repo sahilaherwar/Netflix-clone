@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const navbar = document.getElementById("navbar");
   
     window.addEventListener("scroll", function() {
-      if (window.scrollY > 120) {
+      if (window.scrollY > 500) {
         navbar.classList.add("nav_black");
       } else {
         navbar.classList.remove("nav_black");
